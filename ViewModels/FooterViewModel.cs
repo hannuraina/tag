@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using Caliburn.Micro;
 
-namespace gui.ViewModels
+namespace tag.ViewModels
 {
   public class FooterViewModel : PropertyChangedBase, IHandle<StatusEvent>
   {

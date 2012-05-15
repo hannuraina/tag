@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace gui.Framework
+namespace tag.Framework
 {
   public interface IModuleMetadata
   {

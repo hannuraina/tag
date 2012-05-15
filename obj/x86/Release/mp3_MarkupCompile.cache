@@ -4,15 +4,15 @@
 winexe
 C#
 .cs
-C:\Documents and Settings\James.McClure\My Documents\My Development\tag\obj\x86\Debug\
+C:\Documents and Settings\James.McClure\My Documents\My Development\tag\obj\x86\Release\
 mp3
 none
 false
-DEBUG;TRACE
+TRACE
 C:\Documents and Settings\James.McClure\My Documents\My Development\tag\App.xaml
 81401680303
 
-58739729259
+57142518557
 22-1874959388
 Views\FooterView.xaml;Views\Library\Listing.xaml;Views\LibraryView.xaml;Views\MainView.xaml;Views\MetadataView.xaml;Views\OptionsView.xaml;Views\SearchView.xaml;Views\ShellView.xaml;
 

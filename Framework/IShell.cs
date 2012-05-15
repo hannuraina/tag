@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace gui.ViewModels.Interfaces
+namespace tag.ViewModels.Interfaces
 {
   public interface IShell
   {

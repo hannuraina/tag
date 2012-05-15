@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using gui.ViewModels;
+using tag.ViewModels;
 using Caliburn.Micro;
-using gui.Data;
+using tag.Data;
 
-namespace gui
+namespace tag
 {
 
   public class NavigationEvent

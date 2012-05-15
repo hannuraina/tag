@@ -6,7 +6,7 @@ using System.ComponentModel.Composition;
 using System.ComponentModel.Composition.Hosting;
 using System.ComponentModel.Composition.Primitives;
 using Caliburn.Micro;
-using gui.ViewModels.Interfaces;
+using tag.ViewModels.Interfaces;
 
 namespace tag
 {

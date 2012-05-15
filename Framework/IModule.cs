@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.ComponentModel.Composition;
 
-namespace gui.ViewModels.Interfaces
+namespace tag.ViewModels.Interfaces
 {
   public interface IModule
   {

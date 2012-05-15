@@ -6,12 +6,12 @@ using System.ComponentModel.Composition;
 using System.Windows;
 using System.Collections.ObjectModel;
 using Caliburn.Micro;
-using gui.Framework;
-using gui.Views;
-using gui.ViewModels.Interfaces;
-using gui.Data;
+using tag.Framework;
+using tag.Views;
+using tag.ViewModels.Interfaces;
+using tag.Data;
 
-namespace gui.ViewModels
+namespace tag.ViewModels
 {
   [Export(typeof(IShell))]
   public class ShellViewModel : Conductor<IModule>.Collection.OneActive, IHandle<NavigationEvent>, IShell

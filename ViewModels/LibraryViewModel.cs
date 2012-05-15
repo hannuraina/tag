@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.ComponentModel.Composition;
-using gui.Views;
-using gui.Data;
-using gui.ViewModels.Interfaces;
+using tag.Views;
+using tag.Data;
+using tag.ViewModels.Interfaces;
 using Caliburn.Micro;
 using Common;
 
 
-namespace gui.ViewModels
+namespace tag.ViewModels
 {
   [Export(typeof(IModule))]
   [Export(typeof(LibraryViewModel))]
@@ -40,15 +40,13 @@ namespace gui.ViewModels
     }
 
     private File selectedItem;
-    public File SelectedItem {
+    public File SelectedRelease{
       get { return selectedItem; }
       set { 
-        selectedItem = value; 
-        NotifyOfPropertyChange(() => SelectedItem); 
+        selectedItem = value;
+        NotifyOfPropertyChange(() => SelectedRelease); 
       }
     }
-
-    //this
     
     public BindableCollection<File> Releases
     {

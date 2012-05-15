@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.ComponentModel.Composition;
 using Caliburn.Micro;
-using gui.ViewModels.Interfaces;
-using gui.Data;
+using tag.ViewModels.Interfaces;
+using tag.Data;
 
-namespace gui.ViewModels
+namespace tag.ViewModels
 {
   [Export(typeof(IModule))]
   [ExportMetadata("Order", 2)]
@@ -50,10 +50,7 @@ namespace gui.ViewModels
     #endregion
 
     #region Public Actions
-    public void UpdateModel()
-    {
-      LibraryVM.SelectedItem.Metadata.Artist = "test";
-    }
+    
     #endregion
 
   }
