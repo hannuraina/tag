@@ -1,0 +1,6 @@
+C:\Documents and Settings\James.McClure\My Documents\My Development\mp3\bin\Debug\mp3.exe.config
+C:\Documents and Settings\James.McClure\My Documents\My Development\mp3\obj\x86\Debug\mp3.exe
+C:\Documents and Settings\James.McClure\My Documents\My Development\mp3\obj\x86\Debug\mp3.pdb
+C:\Documents and Settings\James.McClure\My Documents\My Development\tag\bin\Debug\mp3.exe.config
+C:\Documents and Settings\James.McClure\My Documents\My Development\tag\obj\x86\Debug\mp3.exe
+C:\Documents and Settings\James.McClure\My Documents\My Development\tag\obj\x86\Debug\mp3.pdb

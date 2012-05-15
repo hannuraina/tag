@@ -1,0 +1,43 @@
+﻿<UserControl x:Class="gui.View.SearchProgressControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="385" 
+             d:DesignWidth="970" xmlns:cal="http://www.caliburnproject.org">
+    <Grid>
+    <Grid Margin="10,10,582,0" Width="378">
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="135*" />
+        <ColumnDefinition Width="Auto" />
+        <ColumnDefinition Width="180*" />
+      </Grid.ColumnDefinitions>
+      <Grid.RowDefinitions>
+        <RowDefinition Height="64*" />
+        <RowDefinition Height="89*" />
+      </Grid.RowDefinitions>
+      <Label Content="Artist" Height="46" HorizontalAlignment="Left" Margin="5,14,0,0" VerticalAlignment="Top" />
+      <TextBox Grid.ColumnSpan="3" Height="23" HorizontalAlignment="Right" Margin="0,16,119,0" VerticalAlignment="Top" Width="166" />
+      <Label Content="Album" Grid.RowSpan="2" Height="28" HorizontalAlignment="Left" Margin="5,39,0,0" VerticalAlignment="Top" />
+      <TextBox Grid.ColumnSpan="3" Height="23" HorizontalAlignment="Right" Margin="0,41,119,0" VerticalAlignment="Top" Width="166" />
+      <Label Content="Year" Height="43" HorizontalAlignment="Left" Margin="6,66,0,0" VerticalAlignment="Top" Width="34" />
+      <TextBox Grid.ColumnSpan="3" Height="23" HorizontalAlignment="Right" Margin="0,68,119,0" VerticalAlignment="Top" Width="166" />
+      <Label Content="Genre" Height="28" HorizontalAlignment="Left" Margin="5,94,0,0" VerticalAlignment="Top" />
+      <TextBox Grid.ColumnSpan="3" Height="23" HorizontalAlignment="Right" Margin="0,94,119,0" VerticalAlignment="Top" Width="166" />
+      <Image Grid.Column="2" Height="105" HorizontalAlignment="Left" Margin="112,14,0,0" Stretch="Fill" VerticalAlignment="Top" Width="98" />
+      <Label Content="Tracks" Height="28" HorizontalAlignment="Left" Margin="5,123,0,0" VerticalAlignment="Top" />
+      <TextBox Grid.ColumnSpan="3" Height="23" HorizontalAlignment="Right" Margin="0,123,119,0" VerticalAlignment="Top" Width="166" />
+      <ContentControl Canvas.Left="363" Canvas.Top="52" Grid.ColumnSpan="3" Grid.Row="1" Margin="6,0,14,6" cal:View.Context="Tracks" />
+    </Grid>
+    <Grid Height="384" HorizontalAlignment="Left" Margin="394,1,0,0" VerticalAlignment="Top" Width="576">
+      <ContentControl Canvas.Left="363" Canvas.Top="52" HorizontalAlignment="Left" Margin="10,103,0,6" cal:View.Context="Listing" Width="560" />
+      <Label Content="Musicbrainz Search" Height="26" HorizontalAlignment="Left" Margin="463,0,0,0" VerticalAlignment="Top" Width="182" />
+      <Label Content="Search Phrase:" Height="26" HorizontalAlignment="Left" Margin="379,25,0,0" VerticalAlignment="Top" Width="182" />
+      <Label Content="Results Found:" HorizontalAlignment="Left" Margin="379,50,0,0" Width="182" Height="26" VerticalAlignment="Top" />
+      <ProgressBar Height="10" HorizontalAlignment="Left" Margin="326,75,0,0" VerticalAlignment="Top" Width="244" />
+      <Label Content="foo%bar" Height="26" HorizontalAlignment="Left" Margin="463,25,0,0" VerticalAlignment="Top" Width="182" />
+      <Label Content="12" Height="26" HorizontalAlignment="Left" Margin="463,47,0,0" VerticalAlignment="Top" Width="182" />
+    </Grid>
+  </Grid>
+</UserControl>

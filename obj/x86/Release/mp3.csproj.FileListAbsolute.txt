@@ -1,0 +1,17 @@
+C:\Documents and Settings\James.McClure\My Documents\My Development\mp3\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\James.McClure\My Documents\My Development\mp3\obj\x86\Release\MainWindow.baml
+C:\Documents and Settings\James.McClure\My Documents\My Development\mp3\obj\x86\Release\Views\FooterView.baml
+C:\Documents and Settings\James.McClure\My Documents\My Development\mp3\obj\x86\Release\Views\Library\Listing.baml
+C:\Documents and Settings\James.McClure\My Documents\My Development\mp3\obj\x86\Release\Views\LibraryView.baml
+C:\Documents and Settings\James.McClure\My Documents\My Development\mp3\obj\x86\Release\Views\OptionsView.baml
+C:\Documents and Settings\James.McClure\My Documents\My Development\mp3\obj\x86\Release\Views\ShellView.baml
+C:\Documents and Settings\James.McClure\My Documents\My Development\mp3\obj\x86\Release\MainWindow.g.cs
+C:\Documents and Settings\James.McClure\My Documents\My Development\mp3\obj\x86\Release\Views\FooterView.g.cs
+C:\Documents and Settings\James.McClure\My Documents\My Development\mp3\obj\x86\Release\Views\Library\Listing.g.cs
+C:\Documents and Settings\James.McClure\My Documents\My Development\mp3\obj\x86\Release\Views\LibraryView.g.cs
+C:\Documents and Settings\James.McClure\My Documents\My Development\mp3\obj\x86\Release\Views\OptionsView.g.cs
+C:\Documents and Settings\James.McClure\My Documents\My Development\mp3\obj\x86\Release\Views\ShellView.g.cs
+C:\Documents and Settings\James.McClure\My Documents\My Development\mp3\obj\x86\Release\App.g.cs
+C:\Documents and Settings\James.McClure\My Documents\My Development\mp3\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+C:\Documents and Settings\James.McClure\My Documents\My Development\mp3\obj\x86\Release\mp3_MarkupCompile.cache
+C:\Documents and Settings\James.McClure\My Documents\My Development\mp3\obj\x86\Release\mp3_MarkupCompile.lref
